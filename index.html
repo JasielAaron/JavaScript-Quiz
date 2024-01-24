@@ -1,45 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JavaScript-Quiz</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body> 
+
+<body>
   <!--Added my first div here to have a timer in my header -->
-  <div class="contianer">
+  <div class="container"> 
     <header>
-      <div class="timer">
-        <p>
-          Time:
-          <span id="timer">
-            0
-          </span>
-        </p>
-      </div>
-    </div>
-    </header>
-    <!--Added my main section of my page so when you click start the quiz will start!-->
-    <main class="quiz">
-      <div class="quiz-start">
-        <div class="landing">
-          <h1 id="top">
-            JavaScript-Quiz
-          </h1>
-          <p>
-          Timed Quiz!! Answer the questions if you miss a quesitons you will lose points! Good Luck!!!
-          </p>
-          <button class="start">
-            Start
-          </button>
+        <div class="timer"> 
+            <p> 
+                Time: 
+                <span id="timer"> 
+                    0 
+                </span> 
+            </p> 
+        </div> 
+    </header> 
+  <!--Added my main section of my page so when you click start the quiz will start!-->
+    <main class="quiz"> 
+        <div id="quiz-start"> 
+            <div class="landing" 
+                 id="start-screen"> 
+                <h1 id="top"> 
+                    JavaScript-Quiz 
+                </h1> 
+              
+                <p> 
+                  Timed Quiz!! Answer the questions if you miss a quesitons you will lose points! Good Luck!!!
+                </p> 
+                <button id="start"> 
+                    Start Quiz 
+                </button> 
+            </div> 
+        </div> 
+<!--Added this here so I can add my questions later in Java here is where the quiz begins-->
+        <div class="hide" id="questions"> 
+            <h2 id="question-words"></h2> 
+            <div class="options" id="options"> 
+            </div> 
+        </div> 
+<!--Here I want to make sure my quiz ended and the user can see final score also enter intials and submit score -->
 
-        </div>
-      </div>
+        <div class="hide" id="quiz-end"> 
+            <h2>All Done!</h2> 
+            <p>Your Score: 
+                <span id="score-final"> 
+                </span> 
+            </p> 
+            <p> 
+                Please enter your initials: 
+                <input type="text" 
+                       id="initials" 
+                       max="3" /> 
+                <button id="submit-score"> 
+                    Submit 
+                </button> 
+            </p> 
+        </div> 
+<!--This is for when Java Script is working it will let who ever is taking this quiz if they go a right or not-->
+        <div id="feedback" 
+             class="feedback hide"> 
+        </div> 
+    </main> 
+</div> 
 
-
-    </main>
- 
-  
+<script src="script.js"></script>
 </body>
+
 </html>
