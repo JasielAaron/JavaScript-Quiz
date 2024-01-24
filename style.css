@@ -1,0 +1,16 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*added my color to my website*/
+body {
+  background-color: lightgray;
+}
+
+.quiz {
+  margin: 60px auto 0 auto;
+  max-width: 500px;
+}
+/*changed my letters for my title */
+#top {
+  color: purple;
+}
