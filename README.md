@@ -2,7 +2,7 @@
 
 [<link to deployed application>](https://jasielaaron.github.io/JavaScript-Quiz/)
 
-This is a webiste is a time quiz that will test you JavaScript skills. 
+This webiste is a time quiz that will test you JavaScript skills. 
 
 ![screenshotofmychallenge](./assets/Screenshot%202024-01-23%20at%209.21.38 PM.png)
 
