@@ -1,6 +1,6 @@
 # jasielaaronJavaScript-Quiz
 
-[<link to deployed application>](https://jasielaaron.github.io/JavaScript-Quiz/)
+[<link to deployed application>](https://jasielaaron.github.io/JavaScript-Quiz/) LINK TO DEPLOY APPLICATION: https://jasielaaron.github.io/JavaScript-Quiz/
 
 This webiste is a time quiz that will test you JavaScript skills. 
 
